@@ -1,15 +1,15 @@
-    import React, { Component } from "react";
-    class HeaderComponent  extends Component{
-      render(){
-         return(
-             <header id="home">
-             <div className="header-background section"></div>
+import React, { Component } from "react";
+class HeaderComponent extends Component {
+   render() {
+      return (
+         <header id="home">
+            <div className="header-background section"></div>
 
-            </header>
+         </header>
 
-         );
+      );
 
-      }
+   }
 
-    }
-    export default HeaderComponent;
+}
+export default HeaderComponent;

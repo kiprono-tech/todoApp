@@ -10,7 +10,8 @@
     "react-dom": "^16.5.0",
     "react-leaflet": "^2.0.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "todo-app": "file:"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,5 +19,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://jamal-app.netlify.com/"
+  "homepage": "https://kiprono-tech-app.netlify.com/",
+  "proxy": "http://localhost:8080"
 }

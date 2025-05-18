@@ -1,10 +1,11 @@
+const url = process.env.REACT_APP_API_URL || "http://localhost:8080"; 
 export const fetchAll = () =>
-  fetch(`http://api.todo.com/`)
+  fetch(`${url}/`)
     // We get the API response and receive data in JSON format...
     .then(response => response.json());
 
 export const create = (data = {}) =>
-  fetch(`http://api.todo.com/create/task/`, {
+  fetch(`${url}/create/task/`, {
     method: "POST",
     mode: "cors",
     cache: "no-cache",
@@ -19,10 +20,9 @@ export const create = (data = {}) =>
   }).then(response => response.json());
 
 export const update = (data = {}) =>
-  fetch(`http://api.todo.com/update.php`, {
+  fetch(`${url}/update.php`, {
     method: "PUT",
     mode: "cors",
-    cache: "no-cache",
     credentials: "same-origin",
     headers: {
       "Content-Type": "application/json; charset=utf-8"
@@ -34,7 +34,7 @@ export const update = (data = {}) =>
   }).then(response => response.json());
 
 export const remove = (data = {}) =>
-  fetch(`http://api.todo.com/delete.php`, {
+  fetch(`${url}/delete.php`, {
     method: "DELETE",
     mode: "cors",
     cache: "no-cache",

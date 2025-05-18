@@ -16,11 +16,11 @@ const About = () => {
               <div id="about-card" className="card">
                 <div className="card-content">
                   <p>
-                    Hello! I’m Jamal Hassouni. Senior Web Developer with over 5
+                    Hello! I am Vincent Kiprono. I am a Web Developer with over 3
                     years of experience specializing in front end development.
                     Experienced with all stages of the development cycle for
                     dynamic web projects.Having an in-depth knowledge including
-                    advanced HTML5, CSS, CSS3, SASS, PugJS, JSON, XML,PHP,
+                    advanced HTML5, CSS, CSS3, JSON, XML, PHP,
                     JavaScript, JQuery, React JS.
                   </p>
                 </div>
